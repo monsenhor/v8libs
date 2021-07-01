@@ -1,9 +1,17 @@
 # v8libs
 Learning how to create libraries for V8 engine
 
+This study presents how to make libraries for javascript VMs. It covers working with raw javascript, torque, C, C++ and Wasm. 
+
+We begin with the basics, implementing a function with Node.js using a TDD approach.
+
+Next lessons cover npm projects implementing optimized libraries in C, C++ and torque.
+
+The final lessons cover improving the built-in Javascript libraries for V8 hacking the core code.
+
 We assume using a comand terminal in a Unix box, MacOS or Linux.
 
-## Creating a function in V8 with javascript
+## Lesson 1 - Creating a function in V8 (Node.js) with javascript
 
 The project will be made in the directory _transform_.
 
