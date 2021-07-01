@@ -14,7 +14,7 @@ Let's name this function "transform". It receives 2 numbers (x and y) and return
 var a = 34;
 var b = 67;
 var t = transform (a, b);
-write t;
+write (t);
 ```
 
 This piece of code supposedly shall write "1000" on the screen.  We need to implement "transform to have it.
