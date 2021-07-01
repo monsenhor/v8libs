@@ -31,6 +31,7 @@ We create a file doc.md explaining how it works.
 We create a file test.js with the test.
 
 ```javascript
+transform = require ("transform.js");
 var result = transform (34,67);
 
 assert ( result  == 1000, "It is wrong ..."); 
@@ -51,10 +52,12 @@ So we need to write our code.
 We will implement the new function in the file transform.js
 
 ```javascript
-exports.transform = function (x, y){
+var transform = function (x, y){
    let z = ( x + y + 99 ) * 5;
    return z;
 }
+
+module.exports = transform;
 ```
 
 ### Using the script
@@ -65,7 +68,7 @@ So we could use it like that:
 var a = 34;
 var b = 67;
 var t = transform (a, b);
-write (t);
+console.log (t);
 ```
 
 This code is in the file main.js
