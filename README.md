@@ -65,7 +65,7 @@ So we could use it like that:
 var a = 34;
 var b = 67;
 var t = transform (a, b);
-write t;
+write (t);
 ```
 
 This code is in the file main.js
