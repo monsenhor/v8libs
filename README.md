@@ -39,10 +39,10 @@ We create a file doc.md explaining how it works.
 We create a file test.js with the test.
 
 ```javascript
-transform = require ("transform.js");
+var transform = require ("transform.js");
 var result = transform (34,67);
 
-assert ( result  == 1000, "It is wrong ..."); 
+console.assert ( result  == 1000, "It is wrong ..."); 
 ```
 
 We may test it running:
@@ -73,6 +73,7 @@ module.exports = transform;
 So we could use it like that:
 
 ```javascript
+var transform = require ("transform.js");
 var a = 34;
 var b = 67;
 var t = transform (a, b);
