@@ -34,7 +34,7 @@ We create a file test.js with the test.
 var transform = require ("transform.js");
 var result = transform (34,67);
 
-assert ( result  == 1000, "It is wrong ..."); 
+console.assert ( result  == 1000, "It is wrong ..."); 
 ```
 
 We may test it running:
