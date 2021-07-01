@@ -1,0 +1,19 @@
+{
+  "name": "transform",
+  "version": "1.0.0",
+  "description": "transform 2 numbers, returning the final value",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsenhor/v8libs.git"
+  },
+  "author": "Monsenhor",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/monsenhor/v8libs/issues"
+  },
+  "homepage": "https://github.com/monsenhor/v8libs#readme"
+}
