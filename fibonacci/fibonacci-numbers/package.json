@@ -1,0 +1,11 @@
+{
+  "name": "fibonacci-numbers",
+  "version": "1.0.0",
+  "description": "Implementing the Fibonacci numbers in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+
+  "keywords": []
+}
